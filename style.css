@@ -1,0 +1,157 @@
+/* Definição de fontes e tamanhos */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Configuração do fundo */
+body {
+    background-color: #f2eedd;
+}
+
+/* Configuração da largura máxima */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+/* Configuração do cabeçalho */
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 80px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ffb81c;
+}
+
+.button-agendar {
+    background-color: #ffb81c;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.button-agendar:hover {
+    background-color: #ffd966;
+}
+
+/* Configuração do banner */
+.banner {
+    background-color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.banner h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.banner p {
+    font-size: 24px;
+    margin-bottom: 50px;
+    color: #666;
+}
+
+.banner-images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.banner-images img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Configuração da seção "Sobre" */
+.sobre {
+    background-color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.sobre h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.sobre p {
+    font-size: 18px;
+    margin-bottom: 50px;
+    color: #666;
+}
+
+/* Configuração da seção "Galeria" */
+.galeria {
+    background-color: #fff;
+    padding: 100px 0;
+}
+
+.galeria h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.galeria-images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.galeria-images img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Configuração da seção "Depoimentos" */
+.depoimentos {
+    background-color: #fff;
+    padding: 100px 0;
+}
+
+.depoimentos h2 {}
